@@ -1,0 +1,88 @@
+body {
+	margin: 25px;
+	text-align: center;
+}
+#title {
+	font-size: 24px;
+	color:#f00;
+}
+
+#input {
+/*   margin: auto;
+   width: 100px;
+   height: 50px;
+   border: 1px #000000 solid;
+   padding: 9px 18px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+*/
+border: 2px solid rgb(165, 165, 165);
+padding: 5px;
+width: 100%;
+border-radius: 3px;
+resize: none;
+height: 40px;
+margin-left:6px;
+}
+
+#textarea_value, #textarea_reset {
+   border-top: 1px solid #000000;
+   background: #18402a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#009762), to(#18402a));
+   background: -webkit-linear-gradient(top, #009762, #18402a);
+   background: -moz-linear-gradient(top, #009762, #18402a);
+   background: -ms-linear-gradient(top, #009762, #18402a);
+   background: -o-linear-gradient(top, #009762, #18402a);
+   padding: 9px 18px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   margin:auto;
+   color: white;
+   font-size: 15px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width: 100px;
+   }
+
+#textarea_value:hover, #textarea_reset:hover {
+   border-top: 1px solid #000000;
+   background: #fff763;
+   color: #000000;
+   }
+
+input[type=button]{
+font-size: 15px;
+border: 1px solid gray;
+padding: 5px;
+background-color: #084CA1;
+font-weight:bold;
+cursor: pointer;
+width:100%;
+color:white;
+border-radius:3px;
+margin-left:6px;
+font-family: 'Droid Serif', serif;
+}
+
+#slider {
+   width:45%;
+   margin:auto;
+   padding:10px;
+}
+
+#inputBox {
+   width: 50%;
+   margin:auto;
+}
+
+#totalBillOutput, #totalTipOutput, #totalTabOutput {
+   font-size: 24px;
+   margin: 10px;
+}
